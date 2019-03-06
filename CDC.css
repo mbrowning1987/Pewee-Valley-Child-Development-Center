@@ -4,4 +4,25 @@
     background-repeat: no-repeat;
     background-size: cover; 
     height: 400px;
+   font-weight: bold;
+}
+
+.main {
+    color: black;
+    padding-top: 30px;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
 }
