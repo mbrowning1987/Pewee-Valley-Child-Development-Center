@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.navbar-nav > li {
+.navbar-nav li {
     display: inline-block;
     float:none;
     padding-left: 60px;
