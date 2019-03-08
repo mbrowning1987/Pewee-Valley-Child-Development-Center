@@ -1,3 +1,5 @@
+
+/* Navigation css styles */
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -15,6 +17,9 @@
     float:none;
     padding-left: 60px;
 }
+/* // Navigation css styles */
+
+
 .body {
     background-color: 	#008B8B;
 }
@@ -29,6 +34,17 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* FOOTER css styles */
+.foot {
+    color: black;
+}
+.foot:hover {
+    color: red;
+}
+
+/*// FOOTER css styles */
+
 
 /* Making all card images the same size */
 .card-img-top {
