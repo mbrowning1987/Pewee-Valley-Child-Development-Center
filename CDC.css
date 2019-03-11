@@ -26,6 +26,13 @@
     float:none;
     padding-left: 60px;
 }
+.logo {
+    font-family:  Comic Sans MS;
+    font-size: 30px;
+}
+.body {
+    background-color: #008B8B;
+}
 .cdc {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,6 +40,7 @@
     font-style: italic;
     font-weight: bold;
     padding-top: 20px;
+    color: white;
 }
 .about {
     text-align: center;
