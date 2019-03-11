@@ -42,10 +42,14 @@
 .foot:hover {
     color: red;
 }
-.phone {
-    color: white;
+.phone2 {
+    color: white !important;
+
 }
 
+.phone2:hover {
+    color: red !important;
+}
 /*// FOOTER css styles */
 
 
@@ -88,3 +92,55 @@
 
 
 
+
+
+
+/* MEDIA QUERIES */
+
+
+
+
+@media (max-width: 1000px) {
+.card-deck {
+
+}
+
+
+}
+
+
+
+@media (max-width: 980px) {
+    .card-footer {
+        display: none;
+    }
+}
+@media (max-width: 980px) {
+    .list-group-item {
+        display: none !important;
+    }
+}
+
+@media (max-width: 980px) {
+    .card {
+       height: 400px;
+    }
+}
+
+@media (max-width: 980px) {
+    .card-title, .card-text {
+      font-size: .75em;
+    }
+}
+
+@media (max-width: 980px) {
+    .brandi {
+        font-size: .70em;
+    }
+}
+
+@media (max-width: 980px) {
+    .card-img-top {
+height: 40%;
+    }
+}
