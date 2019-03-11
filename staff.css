@@ -11,7 +11,12 @@
     float:none;
     padding-left: 60px;
 }
-
+.nav-link:hover {
+    color:#008B8B !important;
+}
+.nav-link:visited {
+    color:#008B8B !important;
+}
 .navbar-nav li {
     display: inline-block;
     float:none;
@@ -34,6 +39,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 /* FOOTER css styles */
 .foot {
