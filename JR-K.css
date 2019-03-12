@@ -34,6 +34,13 @@
 
 .body {
   background-color: #F4A460;
+  
+}
+.header {
+    text-align: center;
+    padding-top: 20px;
+    color: navy;
+    padding-bottom: 30px;
 }
 
 .jrk {
@@ -42,7 +49,16 @@
     border-radius: 110px;
     padding-top: 20px;
 }
+.scedule2 {
+    border-width: 10px;
+    color: yellowgreen;
+    border-style: double;
+    height: 600px ;
+    width: 400px ;
+    border-radius: 90px;
 
+    
+}
 .junior {
     padding-top: 30px;
     text-align: center;
@@ -50,7 +66,7 @@
     text-decoration: underline;
     text-decoration-style: wavy;
     padding-bottom: 5px;
-    text-decoration-color: navy;
+    text-decoration-color: yellow;
 }
 .heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
