@@ -1,0 +1,83 @@
+.foot {
+    color: black;
+}
+.foot:hover {
+    color: red;
+}
+.phone2 {
+    color: white !important;
+
+}
+
+.phone2:hover {
+    color: red !important;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
+}
+.nav-link:hover {
+    color:  #008B8B !important;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.body {
+  background-color: #F4A460;
+}
+
+.jrk {
+    height: 400px;
+    width: 400px;
+    border-radius: 110px;
+    padding-top: 20px;
+}
+
+.junior {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    padding-bottom: 5px;
+    text-decoration-color: navy;
+}
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: navy;
+    text-align: center;
+    padding-top: 20px;
+}
+.jrk2 {
+    color: navy;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.intro {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
