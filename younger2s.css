@@ -73,9 +73,42 @@
     text-decoration-style: wavy;
     font-size: 50px;
     font-weight: 700;
+    padding-bottom: 25px;
 
 }
 .tt {
     color: white;
     text-align: center;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 780px) {
+    .young {
+        height: 75%;
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .scedule2 {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 440px) {
+    .header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .younger {
+        font-size: 30px;
+    }
 }
