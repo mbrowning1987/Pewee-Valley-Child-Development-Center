@@ -1,8 +1,8 @@
 .body {
-    background-color: 	#ff1493;
+    background-color: 	#ee82ee;
 }
 
-.garten {
+.todd {
     height: 300px;
     width: 400px;
     padding-top: 25px;
@@ -10,42 +10,43 @@
 }
 
 
-.begin {
+.toddler {
     text-align: center;
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: blue;
-    text-decoration-style: double;
+    color: #191970;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: yellow;
 
 }
 
-.hg {
+.tod {
     text-align: center;
-    color: white;
+    color: #191970;
     line-height: 25px;
+    font-weight: 600;
 }
 /* Footer */
 
 .tour {
-    color: white;
+    color: navy;
 }
 .phone2 {
-    color: white;
+    color: navy;
 }
 .foot {
-    color: white;
+    color: navy;
 }
 
 
 
 .header {
-    color: white;
+    color: #191970;
     text-align: center;
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: blue;
+    text-decoration-color: yellow;
     padding-top: 25px;
     padding-bottom: 20px;
 
@@ -73,7 +74,7 @@
     padding-left: 60px;
 }
 .nav-link:hover {
-    color: #ff1493 !important;
+    color: #ee82ee !important;
     font-size: 110%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -90,22 +91,7 @@
       width: 100%;
       height: auto;
     }
-.younger {
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    text-decoration: underline;
-    text-decoration-color: blue;
-    text-decoration-style: wavy;
-    font-size: 50px;
-    font-weight: 700;
-    padding-bottom: 25px;
 
-}
-.tt {
-    color: white;
-    text-align: center;
-}
 
 
 
@@ -113,7 +99,7 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 780px) {
-    .garten {
+    .todd {
         height: 85%;
         width: 85%;
     }
@@ -134,7 +120,7 @@
 }
 
 @media (max-width: 580px) {
-    .younger {
-        font-size: 30px;
+    .tod {
+        font-size: 20px;
     }
 }
