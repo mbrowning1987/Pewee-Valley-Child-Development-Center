@@ -12,6 +12,12 @@
 
 .begin {
     text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* Footer */
 
