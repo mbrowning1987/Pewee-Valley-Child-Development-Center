@@ -1,0 +1,125 @@
+
+
+
+.body {
+    background-color: #98FB98;
+}
+
+
+.pre {
+    height: 350px;
+    width: 350px;
+    padding-top: 20px;
+    border-radius: 80px;
+}
+.prek {
+    text-align: center;
+    padding-top: 20px;
+    color: 		#000080;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dashed;
+}
+
+.pk {
+    color: 	#000080;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+}
+.scedule2 {
+    width: 500px;
+    height: 600px;
+    border: dashed;
+    border-style: dashed;
+   border-color: navy;
+    border-width: 10px;
+    border-radius: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.header {
+    color: navy;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: yellow;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
+}
+.nav-link:hover {
+    color:  green !important;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.dropdown-item:hover {
+    background-color: #98FB98 !important;
+}
+.carousel {
+    max-height: 600px;
+    overflow: hidden;
+} 
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+
+
+.phone2, .tour, .foot {
+    color: navy;
+}
+
+.phone2:hover {
+    color: red;
+}
+.foot:hover {
+    color: red;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 780px) {
+    .pre {
+        height: 78%;
+        width: 78%;
+        
+    }
+
+}
+
+@media (max-width: 780px) {
+    .scedule2 {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 440px) {
+    .header {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .prek {
+        font-size: 30px;
+    }
+}
+
