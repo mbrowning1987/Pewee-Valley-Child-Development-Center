@@ -9,7 +9,12 @@ td, th {
   background-image: linear-gradient(to right top, #005de8, #0098ff, #00c1e4, #00df86, #a9ee0d);
 }
 
+.four {
+  color: black;
+  font-weight: 800;
+  text-align: center;
 
+}
 .one, .two, .three, .four {
   text-align: center;
 }
@@ -131,8 +136,19 @@ td, th {
 }
 
 
-@media (max-width: 330px) {
+@media (max-width: 460px) {
   .about {
     font-size: 1.2em;
+  }
+}
+@media (max-width: 480px) {
+td, th, {
+  border-width: 1px !important;
+}
+}
+
+@media (max-width: 480px) {
+  .table {
+    border-width: 5px !important;
   }
 }
