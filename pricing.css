@@ -1,8 +1,91 @@
 .headline {
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-style: double;
+
+}
+.rates, .rates2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.discount {
+    text-align: center;
+}
+
+.late, .pickup {
+    text-align: center;
+}
+.money, .money2 {
+    text-align: center;
+}
+.money {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.late {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.holidays, .vacation {
+    text-align: center;
+}
+.tuition1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.holidays {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.abouttuition {
+    text-align: center;
+}
+.registration {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.activity, .fee1, .fee2, .fee3 {
+    text-align: center;
+}
+.activity {
+    text-decoration: underline;
 }
 
 
+
+.fee3 {
+    text-align: center;
+}
+.first, .sub {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+
+.ft {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pt {
+    text-align: center;
+    margin-top: 30px;
+}
+th, td {
+    text-align: center;
+}
+.age {
+    text-align: center;
+}
 
 /* Navigation css styles */
 .navbar-nav {
@@ -10,6 +93,7 @@
     margin:0 auto;
     display: block;
     text-align: center;
+    font-weight: 700;
 }
 .nav-item li {
     display: inline-block;
@@ -17,11 +101,9 @@
     padding-left: 60px;
 }
 .nav-link:hover {
-    color:#008B8B !important;
+    color: red !important;
 }
-.nav-link:visited {
-    color:#008B8B !important;
-}
+
 .navbar-nav li {
     display: inline-block;
     float:none;
