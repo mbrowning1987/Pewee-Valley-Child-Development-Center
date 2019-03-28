@@ -313,4 +313,15 @@ th, td {
     }
 
 }
+
+@media (max-width: 430px) {
+     .tuition1, .holidays, .late, .money {
+
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
 /* tuition, late pick, financial, vacation queries */
