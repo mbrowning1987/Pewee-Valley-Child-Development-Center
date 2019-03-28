@@ -1,17 +1,59 @@
+
+/* Headline CSS */
+
 .headline {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 40px;
     text-decoration: underline;
     text-decoration-style: double;
-
 }
+/* // Headline CSS */
+/* Full time tuition CSS */
+.ft {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* // Full time tuition CSS */
+/* Part time tuition CSS */
+.pt {
+    text-align: center;
+    margin-top: 30px;
+}
+/* // Part time tuition CSS */
+/* rates, rates2 css */
 .rates, .rates2 {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
     font-weight: 800;
 }
+/* rates, rates2 css */
+
+/* Registration CSS */
+.registration {
+    text-align: center;
+    text-decoration: underline;
+}
+/* // Registration CSS */
+/* First, Sub CSS */
+.first {
+    margin-top: 20px;
+}
+/* // First, Sub CSS */
+/* Activity fee CSS */
+.activity, .fee1, .fee2, .fee3 {
+    text-align: center;
+}
+.activity {
+    text-decoration: underline;
+}
+/* // Activity fee CSS */
+
+
+
+
+
 .discount {
     text-align: center;
 }
@@ -49,17 +91,16 @@
 .abouttuition {
     text-align: center;
 }
-.registration {
-    text-align: center;
-    text-decoration: underline;
-    
-}
-.activity, .fee1, .fee2, .fee3 {
-    text-align: center;
-}
-.activity {
-    text-decoration: underline;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72,14 +113,8 @@ font-size: 20px;
 font-weight: 500;
 }
 
-.ft {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.pt {
-    text-align: center;
-    margin-top: 30px;
-}
+
+
 th, td {
     text-align: center;
 }
@@ -110,3 +145,132 @@ th, td {
     padding-left: 60px;
 }
 /* // Navigation css styles */
+
+
+
+/* MEDIA QUERIES*/
+
+
+
+/* Headline queries */
+@media (max-width: 575px) {
+    .headline {
+        font-size: 1.75rem;
+        margin-bottom: 15px;
+}
+}
+@media (max-width: 400px) {
+    .headline {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+}
+}
+/* //Headline queries */
+
+/* Full time tuition queries */
+@media (max-width: 770px) {
+    .ft {
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+}
+}
+@media (max-width: 570px) {
+    .ft {
+        font-size: 1rem;
+        margin-bottom: 15px;
+}
+}
+@media (max-width: 400px) {
+    .ft {
+        font-size: .75rem;      
+}
+}
+/* // Full time tuition queries */
+/* Part time tuition queries */
+@media (max-width: 770px) {
+    .pt {
+        font-size: 1.25rem;      
+}
+}
+@media (max-width: 570px) {
+    .pt {
+        font-size: 1rem;
+        margin-top: 15px;
+}
+}
+@media (max-width: 400px) {
+    .pt {
+        font-size: .75rem;      
+}
+}
+/* // Part time tuition queries */
+
+
+/* rates, rates2 queries */
+@media (max-width: 550px)  {
+    .rates, .rates2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 430px)  {
+    .rates, .rates2 {
+        font-size: 15px;
+    }
+
+}
+/* // rates, rates2 queries */
+
+/* registration queries */
+@media (max-width: 670px) {
+    .registration {
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 530px) {
+    .registration {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+}
+@media (max-width: 400px) {
+    .registration {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 320px) {
+    .registration {
+        font-size: .75rem;
+    }
+}
+/* // registration queries */
+
+/* first, sub queries */
+@media (max-width: 400px) {
+    .sub, .first {
+        font-size: 15px;
+    }
+}
+
+/* // first, sub queries */
+/* Activity fee queries */
+@media (max-width: 770px ) {
+    .fee3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 580px ) {
+    .fee3 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 420px ) {
+    .fee3 {
+        font-size: 13px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* // Activity fee queries */
