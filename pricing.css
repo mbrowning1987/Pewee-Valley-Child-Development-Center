@@ -36,11 +36,13 @@
     text-decoration: underline;
 }
 /* // Registration CSS */
+
 /* First, Sub CSS */
 .first {
     margin-top: 20px;
 }
 /* // First, Sub CSS */
+
 /* Activity fee CSS */
 .activity, .fee1, .fee2, .fee3 {
     text-align: center;
@@ -50,13 +52,25 @@
 }
 /* // Activity fee CSS */
 
-
-
-
-
+/* discount CSS */
 .discount {
     text-align: center;
 }
+/* // discount CSS */
+
+/* tuition css */
+.abouttuition {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* // end tuition */
+
+
+
+
+
+
 
 .late, .pickup {
     text-align: center;
@@ -88,9 +102,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.abouttuition {
-    text-align: center;
-}
+
 
 
 
@@ -272,5 +284,33 @@ th, td {
     }
 }
 
-
+@media (max-width: 400px) {
+    .activity {
+        font-size: 1.5rem;
+    }
+}
 /* // Activity fee queries */
+
+/* discount queries */
+@media (max-width: 570px) {
+    .discount {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 400px) {
+    .discount {
+        font-size: 1rem;
+    }
+}
+/* // discount queries */
+
+
+/* tuition, late pick, financial, vacation queries */
+@media (max-width: 530px) {
+    .abouttuition, .vacation, .pickup, .money2 {
+
+        font-size: .85rem;
+    }
+
+}
+/* tuition, late pick, financial, vacation queries */
