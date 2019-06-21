@@ -9,7 +9,10 @@
     border-radius: 50px;
 }
 
-
+.email {
+    font-weight: 900;
+    font-size: 20px;
+}
 .toddler {
     text-align: center;
     color: #191970;
@@ -105,7 +108,11 @@
     }
 
 }
-
+@media (max-width: 600px) {
+.todd {
+    border-radius: 0;
+}
+}
 @media (max-width: 780px) {
     .scedule2 {
         height: 75%;

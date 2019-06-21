@@ -22,8 +22,13 @@
     float:none;
     padding-left: 60px;
 }
+.nav-link {
+    font-weight: 700;
+}
 /* // Navigation css styles */
-
+.dropdown-item {
+    color: #008B8B !important;
+}
 
 .body {
     background-color: 	#008B8B;
@@ -33,13 +38,23 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+a:visited {
+    color: white;
+}
 .head {
     color: green;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.email {
+    font-weight: 900;
+    font-size: 20px;
+}
 
+a:link {
+color: white;
+}
 
 /* FOOTER css styles */
 .foot {
@@ -100,27 +115,32 @@
 
 
 
-
 /* MEDIA QUERIES */
 
 
 
 
-@media (max-width: 1000px) {
-.card-deck {
+@media (Max-width: 576px) {
+    .staff {
+        width: 55% !important;
+    }
 
 }
-
-
-}
-
-
 
 @media (max-width: 980px) {
     .card-footer {
         display: none;
     }
 }
+
+@media (max-width: 576px) {
+    .card {
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+
 @media (max-width: 980px) {
     .list-group-item {
         display: none !important;

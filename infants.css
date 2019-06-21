@@ -1,3 +1,31 @@
+.infant {
+    height: 400px;
+    width: 400px;
+    border-radius: 110px;
+    padding-top: 30px;
+    border-radius: 20%;
+}
+.body {
+    background-color: #98FB98;
+}
+
+.scedule2 {
+    border-width: 10px;
+    color: navy;
+    border-style: double;
+    height: 600px ;
+    width: 400px ;
+    border-radius: 90px;
+
+    
+}
+.infant2 {
+    color: navy;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
 .foot {
     color: black;
 }
@@ -5,7 +33,8 @@
     color: navy;
 }
 .phone2 {
-    color: white !important;
+    color: #007bff !important;
+    font-weight: 700;
 
 }
 
@@ -29,18 +58,15 @@
     padding-left: 60px;
 }
 .nav-link:hover {
-    color:  #F4A460 !important;
+    color: blue !important;
     font-size: 110%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 .dropdown-item:hover {
-    background-color: #F4A460 !important;
+    background-color: blue !important;
 }
-.body {
-  background-color: #F4A460;
-  
-}
+
 .header {
     text-align: center;
     padding-top: 20px;
@@ -49,14 +75,10 @@
     text-decoration: underline;
     text-decoration-style: wavy;
     padding-bottom: 5px;
-    text-decoration-color: yellow;
+    text-decoration-color: white;
     padding-bottom: 15px;
    
   
-}
-.email {
-    font-weight: 900;
-    font-size: 20px;
 }
 
 .jrk {
@@ -82,7 +104,7 @@
     text-decoration: underline;
     text-decoration-style: wavy;
     padding-bottom: 5px;
-    text-decoration-color: yellow;
+    text-decoration-color: white;
 }
 .heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -94,7 +116,12 @@
     color: navy;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 25px;
     
+}
+.email {
+    font-weight: 900;
+    font-size: 20px;
 }
 .intro {
     font-size: 1.25em;
@@ -104,7 +131,17 @@
 
 /* MEDIA QUERIES */
 
-
+@media (max-width: 600px) {
+    .infant {
+        height: 65%;
+        width: 65%;
+    }
+}
+@media (max-width: 600px) {
+    .infant {
+      border-radius: 0;
+    }
+}
 @media (max-width: 600px) {
     .jrk {
         height: 75%;

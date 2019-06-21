@@ -8,7 +8,10 @@
     padding-top: 25px;
     border-radius: 50px;
 }
-
+.email {
+    font-weight: 900;
+    font-size: 20px;
+}
 
 .crawl {
     text-align: center;
@@ -17,7 +20,7 @@
     padding-bottom: 20px;
     font-weight: 800;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: white;;
 
 }
 
@@ -46,7 +49,7 @@
     text-align: center;
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: yellow;
+    text-decoration-color: white;
     padding-top: 25px;
     padding-bottom: 20px;
 
@@ -105,7 +108,11 @@
     }
 
 }
-
+@media (max-width: 600px) {
+    .trans {
+        border-radius: 0;
+    }
+}
 @media (max-width: 780px) {
     .scedule2 {
         height: 75%;
