@@ -1,0 +1,139 @@
+.body {
+    background-color: #008B8B;
+}
+
+.twos {
+border-radius: 5px;
+padding-top: 30px;
+
+}
+.header {
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    padding-bottom: 20px;
+    text-decoration-color: yellow;
+
+}
+a:link {
+    color: white;
+}
+.email {
+    font-weight: 900;
+    font-size: 20px;
+}
+.carousel {
+    max-height: 600px;
+    overflow: hidden;
+} 
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
+}
+.nav-link:hover {
+    color:  #008B8B !important;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.header {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+.older {
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    padding-bottom: 20px;
+    text-decoration-color: yellow;
+}
+.scedule2 {
+    border-width: 10px;
+    color: yellowgreen;
+    border-style: double;
+    height: 600px ;
+    width: 400px ;
+
+    
+}
+
+.twos2 {
+    color: white;
+    text-align: center;
+    
+}
+.intro {
+    font-size: 1.25em;
+}
+.scedule {
+    font-size: 5em;
+}
+
+
+.foot {
+    color: black;
+}
+.foot:hover {
+    color: red;
+}
+.phone2 {
+    color: white !important;
+
+}
+
+.phone2:hover {
+    color: red !important;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 990px) {
+    .header, .older {
+        font-size: 2em;
+    }
+
+}
+
+@media (max-width: 500px) {
+.scedule2 {
+    height: 75%;
+    width: 75%;
+}
+}
+
+@media (max-width: 340px) {
+    .twos {
+        height: 75%;
+        width: 75%;
+    }
+    }
+
+
+
+    @media (max-width: 770px) {
+        .twos2 {
+           font-size: 80%;
+        }
+        }

@@ -20,7 +20,10 @@
     text-decoration-color: yellow;
     text-decoration-style: dashed;
 }
-
+.email {
+    font-weight: 900;
+    font-size: 20px;
+}
 .pk {
     color: 	#000080;
     text-align: center;

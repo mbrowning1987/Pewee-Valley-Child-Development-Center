@@ -15,7 +15,10 @@
       width: 100%;
       height: auto;
     }
-  
+    .email {
+        font-weight: 900;
+        font-size: 20px;
+    }
 .navbar-nav {
     float:none;
     margin:0 auto;
