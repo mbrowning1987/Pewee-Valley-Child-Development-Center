@@ -50,22 +50,19 @@
 .logopic {
 
 padding-top: 20px;
-height: 30%;
-width: 30%;
+height: 40%;
+width: 40%;
+
 
 }
-.body {
-    /* background-color: #008B8B; */
 
-    /* background-repeat: no-repeat; */
-    background-size: auto;
-    background-size: contain, cover;
-    /* background: url("http://www.glenashtondaycare.com/wp-content/uploads/2013/12/kid-background-2-e1386728736694.jpg"); */
     
 
-
+.hey {
+  background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/69680901_10103783233937767_3408348980814282752_n.jpg?_nc_cat=111&_nc_oc=AQk790jSd2STCk2p7bF_N5CIEugdxnQ0wHQc2I0U9pAaNn9abjF_9S87z0nxQF9H9kc&_nc_ht=scontent-lga3-1.xx&oh=b95c91a1a96940066568d0a83a79af61&oe=5DFE1B84");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
 
 .cdc {
     text-align: center;
