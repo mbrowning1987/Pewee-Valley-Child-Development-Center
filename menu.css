@@ -4,7 +4,9 @@ td, th {
     border: 1px solid #ccc;
     text-align: center;
   }
-
+.email {
+  color: white !important
+}
 .body {
   background-image: linear-gradient(to right top, #005de8, #0098ff, #00c1e4, #00df86, #a9ee0d);
 }
@@ -64,8 +66,15 @@ width: 100%;
   font-style: italic;
   font-weight: 700;
 }
-
-
+li:visited { 
+  color: pink !important;
+}
+a:link {
+  color: black !important;
+}
+.email {
+  font-weight: 900;
+}
 .about {
   font-size: 1.75em;
   color: black;

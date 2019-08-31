@@ -25,6 +25,8 @@
     display: block;
     text-align: center;
 }
+
+
 .dropdown-item:hover {
     background-color: lightblue !important;
     
@@ -46,8 +48,10 @@
     color: black;
 }
 .logopic {
-border-radius: 70px;
+
 padding-top: 20px;
+height: 30%;
+width: 30%;
 
 }
 .body {
@@ -56,7 +60,13 @@ padding-top: 20px;
     /* background-repeat: no-repeat; */
     background-size: auto;
     background-size: contain, cover;
+    /* background: url("http://www.glenashtondaycare.com/wp-content/uploads/2013/12/kid-background-2-e1386728736694.jpg"); */
+    
+
+
 }
+
+
 .cdc {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
