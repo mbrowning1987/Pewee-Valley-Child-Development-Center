@@ -118,10 +118,9 @@ td, th {
 @media (max-width: 480px) {
   .body {
     background-image: none;
-    background-color: #a9ee0d;
-  }
-}
+    background-color: 	#FFA500;
 
+  }
 
 @media (max-width: 480px) {
   td, th {
