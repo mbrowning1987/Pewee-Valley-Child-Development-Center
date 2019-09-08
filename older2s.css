@@ -1,7 +1,9 @@
 .body {
     background-color: #008B8B;
 }
-
+.dropdown-item {
+    color: black !important;
+}
 .twos {
 border-radius: 5px;
 padding-top: 30px;
