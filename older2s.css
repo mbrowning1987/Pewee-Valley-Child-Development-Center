@@ -76,7 +76,9 @@ a:link {
 
     
 }
-
+.dropdown-item:hover {
+    background-color: #008B8B !important;
+}
 .twos2 {
     color: white;
     text-align: center;
