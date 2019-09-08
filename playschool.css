@@ -106,7 +106,9 @@ a:link {
 }
 
 
-
+.dropdown-item {
+    color: black !important;
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 990px) {
