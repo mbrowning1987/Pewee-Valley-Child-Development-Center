@@ -78,7 +78,7 @@ a:link {
 }
 
 .twos2 {
-    color: white;
+    color: white !important;
     text-align: center;
     
 }
