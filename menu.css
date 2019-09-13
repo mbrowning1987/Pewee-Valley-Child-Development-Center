@@ -8,7 +8,7 @@ td, th {
   color: white !important
 }
 .body {
-  background-image: linear-gradient(to right top, #005de8, #0098ff, #00c1e4, #00df86, #a9ee0d);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 .four {
@@ -115,12 +115,12 @@ td, th {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .body {
     background-image: none;
     background-color: 	#FFA500;
 
-  }
+  } */
 
 @media (max-width: 480px) {
   td, th {

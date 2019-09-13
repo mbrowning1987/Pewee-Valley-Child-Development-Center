@@ -26,3 +26,30 @@ body {
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
   }
 
+/* Navigation css styles */
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.nav-item li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
+}
+.nav-link:hover {
+    color:rgb(139, 0, 116) !important;
+}
+.nav-link:visited {
+    color:rgb(139, 0, 116)  !important;
+}
+.navbar-nav li {
+    display: inline-block;
+    float:none;
+    padding-left: 60px;
+}
+.nav-link {
+    font-weight: 700;
+}
+/* // Navigation css styles */
