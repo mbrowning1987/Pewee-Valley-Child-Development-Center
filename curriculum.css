@@ -7,8 +7,6 @@
     line-height: 60px;
 }
 
-
-
 .month {
     text-align: center;
     text-shadow: 0 1px 0 #ccc,
@@ -24,18 +22,25 @@
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
     font-size: 35px;
+    padding-bottom: 20px;
 }
+
+
+
 .week {
     text-align: center;
+    text-decoration: underline;
 }
 .verse {
     text-align: center;
 }
 .themes {
     text-align: center;
+    text-decoration: underline;
 }
 .focus {
     text-align: center;
+    text-decoration: underline;
 }
 .topics {
     text-align: center;
@@ -115,5 +120,17 @@ body {
 @media (max-width: 516px) {
     .heading {
         line-height: 30px;
+    }
+}
+
+@media (max-width: 790px) {
+    .month {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 306px) {
+    .month {
+        font-size: 20px;
     }
 }
