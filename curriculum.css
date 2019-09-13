@@ -20,3 +20,8 @@
 .topics {
     text-align: center;
 }
+
+
+body {
+    background-image: linear-gradient(red, yellow);
+  }
