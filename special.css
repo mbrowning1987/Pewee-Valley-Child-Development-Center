@@ -11,5 +11,52 @@
      
     }
 
+.navbar {
+    margin-bottom: 40px;
+}
 
-   
+
+
+
+
+@media (max-width: 1251px) {
+    .responsiveCal {
+        margin-left: 225px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .responsiveCal {
+        margin-left: 200px !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .responsiveCal {
+        margin-left: 175px !important;
+    }
+}
+
+@media (max-width: 840px) {
+    .responsiveCal {
+        margin-left: 135px !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .responsiveCal {
+        margin-left: 110px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .responsiveCal {
+        margin-left: 75px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .responsiveCal {
+        margin-left: 35px !important;
+    }
+}
