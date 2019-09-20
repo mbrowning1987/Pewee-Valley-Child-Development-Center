@@ -84,6 +84,7 @@ a:link {
     color: white;
     font-size: 25px;
     text-align: center;
+    padding-top: 20px;
 }
 .dropdown-item:hover {
     color: #008B8B !important;
