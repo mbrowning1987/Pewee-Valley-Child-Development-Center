@@ -23,7 +23,7 @@ padding-top: 30px;
 .email {
     font-weight: 900;
     font-size: 20px;
-    color: white;
+    color: white !important;
 }
 .carousel {
     max-height: 600px;
