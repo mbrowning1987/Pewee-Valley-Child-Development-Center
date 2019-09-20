@@ -79,6 +79,12 @@ a:link {
 
     
 }
+
+.explain {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
 .dropdown-item:hover {
     color: #008B8B !important;
 }
