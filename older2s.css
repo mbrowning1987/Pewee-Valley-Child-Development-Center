@@ -22,7 +22,7 @@ padding-top: 30px;
 } */
 
 .email:visited {
-    color: white;
+    color: white !important;
 }
 .email {
     font-weight: 900;
