@@ -17,6 +17,11 @@
 .navbar {
     margin-bottom: 50px;
 }
+
+
+.describe {
+    font-size: 25px;
+}
 .special {
     text-align: center;
     font-size: 40px;
